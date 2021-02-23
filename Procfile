@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/poc-embedded-tomcat-1.0.0-war-exec.jar --port $PORT target/*.jar
+web: java $JAVA_OPTS -jar target/poc-embedded-tomcat-1.0.0-war-exec.jar target/*.jar

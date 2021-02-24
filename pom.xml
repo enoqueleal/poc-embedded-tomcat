@@ -137,6 +137,7 @@
 				<version>2.1</version>
 				<configuration>
 					<path>/</path>
+					<port>${server.port}</port>
 				</configuration>
 				<executions>
 					<execution>

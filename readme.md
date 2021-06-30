@@ -8,13 +8,13 @@ The Tomcat Maven [Plugin](https://tomcat.apache.org/maven-plugin-2.0/index.html)
 Use the package manager [maven](https://maven.apache.org/install.html) to install this sample.
 
 ```bash
-mvn clean install
+./mvnw clean install
 ```
 
 ## Usage
 
 ```bash
-mvn clean install tomcat7:run
+./mvnw clean install tomcat7:run
 
 ```
 

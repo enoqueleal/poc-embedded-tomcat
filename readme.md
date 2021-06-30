@@ -11,11 +11,18 @@ Use the package manager [maven](https://maven.apache.org/install.html) to instal
 ./mvnw clean install
 ```
 
-## Usage
+## Usage in local workstation
 
 ```bash
 ./mvnw clean install tomcat7:run
 
+```
+
+## Usage in docker container
+
+```bash
+docker build -t embedded-tomcat-sample .
+docker run -d -p 8080:8080 --name embedded-tomcat-sample embedded-tomcat-sample .
 ```
 
 ## Contributing
